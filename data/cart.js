@@ -79,5 +79,6 @@ export function loadCart(fun) {
     fun();
   })
   xhr.open('GET','https://supersimplebackend.dev/cart');
+  console.log('sending request to backend')
   xhr.send();
 }
